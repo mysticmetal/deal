@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- you should set typeface which you want to override with TypefaceUtil -->
+        <item name="android:typeface">serif</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <!-- android:actionMenuTextColor is the color of the text of
+        action (menu) items in the Toolbar, at least in the
+        Theme.AppCompat theme.
+        For some reason, they already get the textColorPrimary
+        when running on API 21, but not on older versions of
+        Android, so this is only necessary to support older
+        Android versions.-->
+        <item name="actionMenuTextColor">@color/white_txt</item>
+        <!-- android:textColorSecondary is the color of the menu
+       overflow icon (three vertical dots) -->
+        <item name="android:textColorSecondary">@color/white_txt</item>
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets. -->
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+</resources>
